@@ -4,7 +4,7 @@ A compact **storage-engine implementation in C** that exposes core persistence m
 
 ![Architecture](https://raw.githubusercontent.com/oleglihvoinen/oleglihvoinen.github.io/main/assets/architecture/c-mini-database-engine.png)
 
-## Executive summary
+## Summary
 
 The implementation focuses on deterministic record layout, binary persistence and explicit file operations. It provides a clear systems-level view of how database records can be written, located, updated logically and recovered from persistent storage before introducing more advanced indexing and transactional components.
 
