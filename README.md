@@ -2,6 +2,8 @@
 
 A compact **storage-engine learning/reference implementation in C**. The project persists fixed-size records to a binary file and supports insert, select, delete and list operations through a CLI.
 
+![Architecture](https://raw.githubusercontent.com/oleglihvoinen/oleglihvoinen.github.io/main/assets/architecture/c-mini-database-engine.png)
+
 ## Why this project
 The goal is to demonstrate what sits underneath SQL databases: record layout, binary persistence, sequential lookup, tombstone deletion and file-position updates.
 
