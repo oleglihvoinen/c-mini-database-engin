@@ -1,0 +1,9 @@
+name: build
+on: [push, pull_request]
+jobs:
+  gcc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: make
+      - run: ./tests/smoke.sh
